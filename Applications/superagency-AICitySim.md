@@ -7,8 +7,8 @@ Super Agency - AICitySim
 **Proposal Category:**  
 AI on NEAR
 
-**Individual or Entity Name:**
-GLOA / Super Agency
+**Individual or Entity Name:**  
+GLOA / Super Agency  
 Sea Ansley with Jarred Taylor
 
 ---
@@ -44,25 +44,66 @@ Real humans can also join the simulation via NEAR wallet login, participate in s
 
 ---
 
+### 🔐 NEAR Wallet Benefits
+
+- **Frictionless Login**  
+  Real humans can easily join campaigns using `yourname.near`, with no new account needed. This creates continuity between simulation sessions and builds persistent identity over time.
+
+- **Verifiable Participation**  
+  Every AI or human participant can be uniquely identified via wallet address, allowing us to prevent fraud and track cumulative behavior.
+
+- **Micropayments & Rewards**  
+  Incentives are seamlessly delivered using NEAR's low-cost, high-speed transactions — ideal for rewarding humans in small bursts across many tests.
+
+- **NFT-based Evolution**  
+  Citizens (AI or human) can receive **NFTs as badges, achievements, or artifacts** tied to their simulated experience.  
+  → A human who participates in 10 campaigns might unlock a collectible NFT.  
+  → An AI avatar might evolve its characteristics based on earned NFTs.
+
+- **Optional Bring-Your-Own-NFT Identity**  
+  In future phases, testers or researchers could import their own avatar NFTs into the simulation and track how those personas perform in campaigns — creating crossover use cases between AICitySim and other NFT communities.
+
+---
+
 ## Milestones & Budget
 
 **Total Requested:** $8,950 USD  
 (*Requested as a Level 1 InstaGrant*)
 
-| Milestone                      | Amount  | Deliverables |
-|-------------------------------|---------|--------------|
-| **Milestone 1: Core Engine & Identity**  | $3,200  | - Python-based citizen simulation engine  
+| Milestone                      | Amount (USD) | Deliverables |
+|-------------------------------|--------------|--------------|
+| **Milestone 1: Core Engine & Identity**  | $3,200       | - Python-based citizen simulation engine  
   - Persona logic system  
   - NEAR Wallet login integration  
   - User session & identity tracking |
-| **Milestone 2: Campaign Logic & Insights** | $3,200  | - Campaign submission flow  
+| **Milestone 2: Campaign Logic & Insights** | $3,200       | - Campaign submission flow  
   - Swappable LLM architecture (OpenRouter, Claude, GPT, etc.)  
   - AI response capture & comparison  
   - Summary dashboard (text + charts) |
-| **Milestone 3: Human Testing Prototype** | $2,550  | - Real human opt-in notification system  
+| **Milestone 3: Human Testing Prototype** | $2,550       | - Real human opt-in notification system  
   - NEAR micropayment test  
   - First public test campaign + published results  
   - Community onboarding framework for next phase |
+
+---
+
+## Risks & Mitigation
+
+- **LLM Output Variability**  
+  Different language models may produce inconsistent or biased feedback.  
+  🔹 *Mitigation*: Include a variety of LLMs and document model bias during early testing.
+
+- **User Engagement Dropoff**  
+  Human testers may lose interest or fail to participate regularly.  
+  🔹 *Mitigation*: Use NEAR Wallet-based incentives and a dynamic notification system to re-engage.
+
+- **Scaling Simulation Logic**  
+  Expanding from 1,000 to 1 million agents may introduce performance or complexity issues.  
+  🔹 *Mitigation*: Start with modular design, attempt smaller virtual "focus groups", and optimize based on simulation loads during Phase 1.
+
+- **Token/Economic Abuse**  
+  Users may try to game the system to earn rewards without meaningful input.  
+  🔹 *Mitigation*: Monitor behavior with usage caps and integrate quality metrics.
 
 ---
 
@@ -81,7 +122,7 @@ Real humans can also join the simulation via NEAR wallet login, participate in s
 
 *Additional team/marketing collaborators may be added during Milestone 2.*
 
-The team includes founders of GLOA, who have previously brought NEAR through India, Nepal and South East Asia, thanks to grants from the NEAR foundation.
+The team includes founders of GLOA, who have previously brought NEAR through India, Nepal and South East Asia, thanks to grants from the NEAR Foundation.
 
 ---
 
